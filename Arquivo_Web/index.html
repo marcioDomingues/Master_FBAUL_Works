@@ -1,0 +1,760 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+<title>Arquivo de criaturas de existência possível _ mestrado DCNM</title>
+<!--[if ! lte IE 6]><!-->
+<link rel=stylesheet href="style.css">
+<!--<![endif]-->
+<!--[if lte IE 6]>
+		<link rel="stylesheet" href="http://universal-ie6-css.googlecode.com/files/ie6.1.1.css" media="screen, projection">
+		<![endif]-->
+<script src="scriptaculous-js-1.9.0/lib/prototype.js.pagespeed.ce.AHri_nlYEf.js" type="text/javascript"></script>
+<script src="scriptaculous-js-1.9.0/src/scriptaculous.js.pagespeed.ce.u2edWG5_zL.js" type="text/javascript"></script>
+<script src="js/BM_ImageShiftGallery.js.pagespeed.ce._q3gdLi1sc.js" language=JavaScript type="text/javascript"></script>
+<script src="js/imageLoad.js" language=JavaScript type="text/javascript"></script>
+
+<!--////////////////////////////////////////////////////////////////////////////////-->
+
+
+<!--////////////////////////////////////////////////////////////////////////////////
+JQUERY
+////////////////////////////////////////////////////////////////////////////////-->
+<script src='js/jquery.min.js.pagespeed.ce.3bhMFYcoey.js' type='text/javascript'></script>
+<script type='text/javascript'>/**
+ * jQuery.LocalScroll - Animated scrolling navigation, using anchors.
+ * Copyright (c) 2007-2009 Ariel Flesler - aflesler(at)gmail(dot)com | http://flesler.blogspot.com
+ * Dual licensed under MIT and GPL.
+ * Date: 3/11/2009
+ * @author Ariel Flesler
+ * @version 1.2.7
+ **/
+;(function($){var l=location.href.replace(/#.*/,'');var g=$.localScroll=function(a){$('body').localScroll(a)};g.defaults={duration:1e3,axis:'y',event:'click',stop:true,target:window,reset:true};g.hash=function(a){if(location.hash){a=$.extend({},g.defaults,a);a.hash=false;if(a.reset){var e=a.duration;delete a.duration;$(a.target).scrollTo(0,a);a.duration=e}i(0,location,a)}};$.fn.localScroll=function(b){b=$.extend({},g.defaults,b);return b.lazy?this.bind(b.event,function(a){var e=$([a.target,a.target.parentNode]).filter(d)[0];if(e)i(a,e,b)}):this.find('a,area').filter(d).bind(b.event,function(a){i(a,this,b)}).end().end();function d(){return!!this.href&&!!this.hash&&this.href.replace(this.hash,'')==l&&(!b.filter||$(this).is(b.filter))}};function i(a,e,b){var d=e.hash.slice(1),f=document.getElementById(d)||document.getElementsByName(d)[0];if(!f)return;if(a)a.preventDefault();var h=$(b.target);if(b.lock&&h.is(':animated')||b.onBefore&&b.onBefore.call(b,a,f,h)===false)return;if(b.stop)h.stop(true);if(b.hash){var j=f.id==d?'id':'name',k=$('<a> </a>').attr(j,d).css({position:'absolute',top:$(window).scrollTop(),left:$(window).scrollLeft()});f[j]='';$('body').prepend(k);location=e.hash;k.remove();f[j]=d}h.scrollTo(f,b).trigger('notify.serialScroll',[f])}})(jQuery);</script>
+<script src='js/jquery.scrollTo-min.js.pagespeed.ce.SqPi36MSPZ.js' type='text/javascript'></script>
+<script type='text/javascript'>
+     			jQuery.noConflict();
+
+jQuery(document).ready(function () {
+				jQuery.localScroll({duration:300, axis:'xy', margin:true, offset:{top:-10, left:-140}, hash:true});
+				jQuery.localScroll.hash({duration:300, axis:'xy', margin:true, offset:{top:-10, left:-140}});
+			});			
+</script>
+<!--////////////////////////////////////////////////////////////////////////////////
+end of JQUERY
+////////////////////////////////////////////////////////////////////////////////-->
+
+<!--////////////////////////////////////////////////////////////////////////////////
+  first collune 
+////////////////////////////////////////////////////////////////////////////////-->
+<!--  queue:true -->
+</head>
+
+
+<body>
+	
+<!-- float head /////////////////////////////////////////////////////-->	
+<header>
+<nav>
+<h2>Arquivo de criaturas de existência possível</h2>
+<ul>
+<li><a href="#Sinopse">Sinopse</a></li>
+<li><a href="#Tipologia">Tipologia</a></li>
+<li><a href="#Bios">Bios</a></li>
+<li><a href="#Archive">Arquivo</a></li>
+
+<p></p>
+<li><a href="#Permissa">Permissa Inicial</a></li>
+<li><a href="#notas">Notas</a></li>
+<p></p>
+<li><a href="#WAM">Wind Agents Mapping</a></li>
+<li><a href="#VA">Viral Agents</a></li>
+<li><a href="#MA">Mycelium Agent</a></li>
+
+<p></p>
+<li><a href="#poster">Exposição</a></li>
+
+<!--
+<li><a href="#Archive">Archive</a></li>
+-->
+</ul>
+</nav>
+</header>
+<!--end of javascript float head /////////////////////////////////////////////////////-->
+
+
+
+<div class=container><!-- main container -->
+	
+<!--////////////////////////////////////////////////////////////////////////////////
+	   first collune 
+////////////////////////////////////////////////////////////////////////////////-->
+<div class=sm-col><!-- first collune container -->
+	
+<section class=mod name=Sinopse>
+<article>
+<header>
+<h1>Toward an archive on creatures of possible existence: a proposal</h1>
+</header>
+
+<h2>Sinopse</h2><hr/>
+<p style='text-transform: uppercase;'>
+“The artist is a positive force in perceiving how technology can be translated to new environments to serve needs and provide variety and enrichment of life. He may be the only one who can transcend cultural bias and deal with the individuals of a culture on their own terms.”[1]
+</p>
+<p>A Arte e a Ciencia são ambas manifestações da procura humana por conhecimento, ambas criam nos seus praticantes uma ligação com os processos inerentes ao nosso ambiente e mesmo que em ultima instancia expressem as suas visões de modo diferente não são mutualmente exclusivas, mostram sim imagens espelhadas uma da outra. Este projecto visa explorar o espaço de colectividade entre a Arte e a Ciência ou Tecnologia e encontrar o espaço do Design nesta relação. Explorar como estas "duas culturas"[2] de C.P. Snow podem colaborar e exprimir a paisagem mutável do nosso ambiente? 
+Definir o modo de olhar o mundo do criador que se encontra nesta intersecção e como esta visão se traduz em processos criativos? Como é que conceitos como Comportamento Emergente, Algoritmo, Codigo Generativo podem ser vistos num contexto artístico?  
+ <p>
+ </p>
+[1] Billy Klüver, engineer and co-founder of Experiments in Art and Technology
+<br/>
+[2] C.P. Snow’s, The Two Cultures and the Scientific Revolution, Cambridge University Press, 1960</p>
+
+
+</article>
+</section>
+
+<!-- div /////////////////////////////////////////////////////-->
+<section class=mod name=Tipologia>
+<article>
+<h2>Tipologia</h2><hr/>
+<p>O espaço criado pela união da Arte, do Design e da Ciencia / Tecnologia é explorado através das interacções de três personagens, A., D. e S., que representam respectivamente cada uma das áreas.
+
+De cada uma das discussões entre a personagem A. e S. irão nascer novas personagens, que existirão como abstracções digitais, seres hipoteticos com determinadas características. A exploração destes seres será usada como metáfora para a criação dos objectos devolvidos pelo projecto. O personagem D. servirá como narrador e mediador destes diálogos, irá ser responsável pela clarificação dos tópicos introduzidos pelos outros personagens. Irá criar também paralelos com a sua própria pratica artística. 
+Existirão ainda outro tipo de personagens, referenciais históricos necessários para enquadrar algumas das temáticas, estes pertencerão ao universo comum dos três personagens. 
+Toda as exposições publicas do projecto serão a sua visão dos diálogos e das personagens, D. é o elo de ligação entre o universo fictício e o real, o nosso.</p>
+
+
+<ul class=speakers>
+<p>Personagens</p>
+<li><a href='#D.'>D.</a></li>
+<li><a href='#S.'>S.</a></li>
+<li><a href='#A.'>A.</a></li>
+<p>Personagens Metafisicos</p>
+<li><a href='#WAM'>Criatura A_01.1: Wind Agents Mapping</a></li>
+<li><a href='#VA'>Criatura A_02.1: Viral Agents</a></li>
+<li><a href='#VA'>Criatura A_02.2: Viral Agents</a></li>
+<li><a href='#VA'>Criatura A_02.3: Viral Agents</a></li>
+<li><a href='#MA'>Criatura A_03.1: Fungal Agents</a></li>
+
+</ul>
+
+</article>
+</section>
+
+
+
+
+<!-- div /////////////////////////////////////////////////////-->
+<section class=mod name=Bios>
+<article>
+<h2>Biografias dos personagens</h2><hr/>
+
+<p><span class=inline-title name=D.>D. about D., about A.+S. </span><p><!--tag para linkar-->
+	Vivo grande parte da minha vida a tentar encontrar ideias. Adoro a sensação, existe um vazio, pensamos um bocado e ali está, uma ideia.  
+	É esse o propósito desta viagem, viver diferentes realidades deste mundo, criar vazios.
+	Procurar respostas nessa confusão, nesse caos de vidas, partículas independentes que ao colidirem evaporam-se deixando um vazio e novas partículas que voltam a colidir.
+	encontrei algumas respostas aqui, nestas duas personagem em constante colisão, na singularidade que é esta reunião geradora de ideias.
+	Estes dois não me deixam esquecer de aprender, mantêm-me estúpido…
+	Nenhum dos dois se contenta com uma única resposta. Dos seus diálogos nascem coisas e dessas coisas nascem novas coisas. Tenho colhido o potencial generativo dessas conversas, tento dar forma a essa entidade imaginaria que os outros possam reconhecer. Criar esse relacionamento empático entre quem vê e o que é visto. Conjugar esta amalgama de ideias num objecto singular, poético. 
+	A. disse-me num dos nossos encontros que “the aesthetics is the intensification of perception”, o que me levou a pensar no dia em abandonaria este sitio, talvez no dia em que deixar de ver. </p>
+	
+	<p><span class=inline-title name=S.>A. about S.</span><p><!--tag para linkar-->
+		He doesn't have much to share about himself.
+		He doesn't believe in one Time... 
+		So he was born in all Times he could imagine Then…
+		and he lives in all Timelines he can create Now.
+		He shares his three other dimensions with Beings that, like him, have lived somewhere in time.
+		Some of these lives have occurred others could but didn't …
+
+		He exists in a Descartian sense, and his creatures also exist in the way God exists…
+		He's an organism, because we was born, which not all organisms are, of one female and one male parent and from both he have inherited genes…  
+		He's also inorganic due to some kidney stones and a screw in is leg, connecting a small extra bone to his upper left femur and his lower left femur, created in a bicycle accident when he was five…
+		He is and organism with a brain, and there for a mind and although other other organisms have a mind too, his altogether more complex… 
+		He doesn't step on the cracks in the pavement.
+
+		And i think he said something about having a cat that he doesn't dare to take out of the box… </p>
+		
+		<p><span class=inline-title name=A.>S. about A.</span><p><!--tag para linkar-->
+			he's very down to earth, lives in the here and now.
+			Practical and innovative, very sensitive in perceiving his environment, always eager to see the mechanics of things, but a bit to visual, he always needs this observational perspective of things. This sometimes makes my explanations impossible to get through to him, some things only exist in the realm of possibility, right? But he always tries to put ideas into a concrete form. Like the representability of something in lines, forms, textures, material is a precondition for existence. But and this is the part that really intrigues me, even if he's able to represented it this representation is never enough he's always trying to find a more complete way to do it.
+			he's exactly the opposite of a determinist and he doesn't settle with the answers that he has, in mine line of work this would be terrible, we always have to start somewhere there is no point in reinventing the wheel.
+
+			He's always using a sentence, from Beuys if i'm not mistaken, to describe himself 
+			"teaching is my greatest work of art […] the rest is the waste product, a demonstration. If you want to express yourself you must present something tangible. But after a while this has only the function of a historic document. Objects aren’t very important any more. I want to get to the origin of matter, to the thought behind it."
+			he want's to change society and maybe that's why he's always pushing me to talk about Darwin and the evolution of species. I think he believes that if we can change the moment even just a tinny bit now, we can make a big change in the future.
+
+			…he always calling me the dead hare when i don't get where his heading with is questions. 
+			</p>
+	</article>
+</section>
+
+
+<!-- div /////////////////////////////////////////////////////-->
+<section class=mod name=Bios>
+<article>
+<h2>Biografias dos personagens metafisicos</h2><hr/>
+<a href='#WAMsinopse'>A_01.1</a><!--tag para linkar-->
+	<p>A primeira criatura será um agente activo que se desloca sobre um terreno interactivo. Este modelo de agente é utilizado para a simulação de sistemas  físicos em desequilíbrio e resultam de variações do movimento browniano, ou random walk, e são referidos como "active walker models" ou AWM (Lam and Pochy 1993), e consistem na relação entre o emparelhamento de duas componentes um agente e um terreno. O agente modifica o terreno com a sua passagem e esta é influenciada pelas perturbações na paisagem. As percursos do agente deixam trincheiras no terreno o que resultará numa paisagem escavada e irregular o que afectará o seu percurso numa próxima passagem.<br/>
+	Este agente será governado por duas regras, uma regra de actuação sobre o terreno que defini que alterações este produz na sua passagem e que é uma função relativa à sua posição no espaço, e uma regra de posicionamento que estabelece a posição seguinte do agente com base nas condições actuais do terreno.
+	podemos classificar esta criatura como sendo reactiva, já que responde a alterações do seu meio, autónoma, porque exerce controlo sobre as suas acções, e social, dado que as suas acções manifestam-se no comportamento de todos os membros do mesmo espaço.<br/>
+	Para o nosso modelo usaremos um agente que procura uma certa propriedade libertada por agentes semelhantes a si, um odor deverá ser a melhor analogia. Movimenta-se em linha recta até deixar de sentir este odor quando isso acontece movimenta-se na direcção oposta, o que faz com que nunca se afaste demasiado dos seus vizinhos. Dado que todos os agentes semelhantes libertam este odor e todos procuram um espaço em que este odor esteja presente irão começar a ser produzidos padrões populacionais que poderão ser usados para modelar uma paisagem visual e sonora.</p>
+		<p><a href='#VADescricao'>A_02.1 / A_02.2 / A_02.3</a><!--tag para linkar-->
+		<p>
+			Viral Agents é um conjunto de estudos de protótipos algorítmicos onde se pretende explorar alguns dos conceitos básicos para uma definição do que é a Vida como conjunto de processos.	Pretende-se uma reflexão sobre alguns parâmetros que servirão de primitivas aos restantes desenvolvimentos projectuais como morfogénese, comportamentos associativos e sociais, reciprocidade, emergência, desenvolvimento espacial, desenvolvimento temporal, sustentabilidade, simbiose, auto preservação, etc.
+		</p>
+		<p><a href='#MA_011Descricao'>A_03.1</a><!--tag para linkar-->
+		<p>
+			Mycelium Agent é um objecto audiovisual que parte de um modelo computacional baseado no crescimento de fungos. Partindo do desenvolvimento de modelos que se propagam no espaço através da criação estruturas em rede, compostas por nódulos e ligações, possibilita a criação estruturas visuais complexas que tem origem num conjunto de premissas muito simples. 
+			Pretende-se criar uma relação entre a propagação dos organismos e as condições concedidas pelo meio. Neste objecto iremos gerar um único agente num meio de desenvolvimento, uma imagem, que irá ser explorada como substrato para o seu crescimento. Essa imagem fornece a esta criatura digital os "nutrientes" para o seu desenvolvimento e reprodução, e é devolvida por esta como produto do seu ciclo de vida.
+		</p>
+		
+		</article>
+	</section>
+
+	<!-- div /////////////////////////////////////////////////////-->
+	<section class=mod name=Archive>
+	<h2>Arquivo</h2><hr/><p>Esta pagina servirá de arquivo ao projecto.</p>
+
+	
+	<h2>links do projecto</h2>
+
+	<ul class=links>
+		<p>
+	<a href="doc/ProjectoExposiçãoFinal.pdf">Projecto para Exposição</a>
+	<br/>
+		</p>
+	</ul>
+	<br/>
+	
+	
+	<h2>Bibliografia do projecto</h2>
+	<ul class=links>
+	<ul>
+	<li>Arte e Ciencia, Associação de Estudantes da Faculdade de Ciencias.</li>
+	</ul><ul>
+	<li>Batty Michael, Cities and Complexity, MIT press, 2007</li>
+	</ul><ul>
+	<li>Butcher Clare, Plohman Angela (editors), The Future of the Lab, BALTAN laboratories, 2010</li>
+	</ul><ul>
+	<li>Debatty Régine, Evans Claire, Garcia Pablo, Grover Andrea, Thumb, New Art/Science Affinities, Published by Miller Gallery at Carnegie Mellon University and STUDIO for Creative Inquiry, 2011</li>
+	</ul><ul>
+	<li>Langton Christopher (edited), Artificial Life an overview, MIT press, 1997</li>
+	</ul><ul>
+		<li>Noble Joshua, Programming Interactivity, O'Reilly,2009 </li>
+	</ul><ul>
+	<li> Collection of Documents Published by E.A.T. <a href="http://www.fondation-langlois.org/html/e/page.php?NumPage=237">[Link]</a></li>
+	</ul>
+	</ul>
+	<br/>
+	<h2>Arquivo de criaturas de existência possível</h2>
+
+	<ul>
+	<li>Fases projectuais</li>
+	</ul>
+	<ul>
+	<li class=bold>1º fase</li>
+	<li>12 de março</li>
+	</ul>
+	<ul>
+	<li class=bold>2ª fase</li>
+	<li>26 março</li>
+	</ul>
+
+	</section>
+
+
+</div><!-- Closes class sm-col -->
+<!--////////////////////////////////////////////////////////////////////////////////
+  end of first collune 
+////////////////////////////////////////////////////////////////////////////////-->
+
+<!--////////////////////////////////////////////////////////////////////////////////
+  second collune 
+////////////////////////////////////////////////////////////////////////////////-->
+<div class=col><!-- other collune container -->
+	<!-- div /////////////////////////////////////////////////////-->
+
+<section class=mod name=Permissa>
+	<article>
+	<h2>Permissa Inicial</h2><hr/><p>
+		Charles Darwin refere na sua obra, a origem das espécies, que inúmeras formas de vida deverão ter existido em fases transitórias da evolução, dando origem às que podemos observar hoje. Considerando que estas continuarão a evoluir e a adaptar-se a uma alteração permanente do seu ambiente, muitas novas espécies transitórias virão a existir. Esses seres transitórios que por falta de atributos sucumbiram, em prol de outros mais capazes, poderiam ter características especificas á sua própria existência que os tornavam num interessante caso de estudo, mesmo que essa pequena porção de código genético não tivesse sido suficiente à sua sobrevivência como espécie. Mas do que podemos observar na panóplia de características observáveis nos seres vivos ao nosso dispor hoje podemos induzir certas características de seres que já não o são ou mesmo que nunca o foram. Mas como poderemos aceitar que tal ser tenha existido ou que possa a vir a existir?</p>
+		<p>Alan Turing, numa publicação de 1950, descreve um jogo de imitação que consiste num inquisidor e outras duas entidades às quais este coloca questões, uma outra pessoa e uma maquina, o o objectivo deste jogo é que o inquisidor através das respostas às suas questões consiga distingir a pessoa da maquina, o objectivo da maquina é fazer-se passar por pessoa e o objectivo da pessoa e ajudar o inquisidor a identificar a maquina. Turing levanta duas questões serão as maquinas capazes simular um humano de tal modo que se torne indistinguível, e se sim poderemos considerar a maquina capaz de algum nível de pensamento ou inteligência? Para o estudo proposto consideremos a primeira questão, se existirem maquinas capazes de de fazerem passar por um ser vivo complexo, como um humano, sem que um membro da mesma espécie o consiga identificar, essas mesmas maquinas poderão simular outro ser de complexidade inferior, mais primitivo na linha evolutiva, e assim esse ser simulado seria impossível de distinguir de um possível ser real, o que nos leva a poder admitir a possibilidade de existência real de um ser virtual desde que este possa ser simulado.</p>
+		<p>Proposta:</p>
+		<p>Definir e caracterizar seres cuja existência é possível através de simulacros virtuais.</p>
+		<p>deve existir pelo menos um ser [a] contido em [A] , [a] pertencente a um espaço de tempo [delta t] contido em [T]</p>
+		<p>sendo [a] um subconjunto de seres com determinada característica </p>
+		<p>[A] um conjunto de seres</p>
+		<p>[T] conjunto de todo o tempo</p>
+		<p></p>
+	    <p>
+		<h2><strong> se (P ⊆ C) ∧ ∃p ∈ P ⇒ c⊇p para ∃c ∈ C num ∆t ∀ t</strong></h2>
+		</p> 
+		<p>
+		considerando que P é um conjunto de propriedades exibidas por parte de um conjunto de todos os seres vivos C, que existe pelo menos um ser vivo c num dado tempo que exibe pelo menos uma propriedade p do conjunto P</p>
+
+		</p>
+	</article>
+	</section>
+	
+<!-- div /////////////////////////////////////////////////////-->
+<!-- Setting fixed width -->
+<div class=clear></div>
+
+<section class=mod name=Images>
+<article>
+			<h2>imagens </h2><hr/>
+		<div id="gallery" class="gallery" style="position: relative; float: left; width: 400px;  margin-left: 5px">
+		<div class="controller-wrapper">
+		<div style="padding: 10px 0; height: 40px;">
+		<span style="float: left;">
+			<strong id="gallery_title">Title</strong><br/>
+				<span id="gallery_caption">Caption</span>
+		</span>
+		<span style="float: right;">
+		  <a href="#" id="gallery_prev" class="isg_button">Prev</a> |
+		  <a href="#" id="gallery_next" class="isg_button">Next</a>
+		</span>
+		</div>
+		</div>
+		</div>
+</article>
+</section>
+
+<div class=clear></div>
+
+
+<!-- div /////////////////////////////////////////////////////-->
+<section class=mod name=notas>
+	<article>
+	<h2>notas sobre Arte e Ciência</h2><hr/>
+	<p>
+	</p>
+		<li>from A.</li>"Ciência e Arte são a mesma coisa, ou seja, a capacidade que tem o Homem de juntar elementos varies e criar algo que não exista. Por outro lado, como Poesia deriva de um verbo grego que significa Fazer, tudo o que se faz, tudo o que se cria, é Poesia. Arte e Ciência são Poesia. Existe, no entanto, uma diferença importante, A Ciência pode traduzir-se em Matemática e a Arte não. É impossível por em Matemática um quadro de Van Gogh. A Matemática pode surgir ao nível da Química das tintas, na forma como a tela absorveu essas tintas ou nos cambiantes de cor quando exposta à luz, mas não na essência da obra artística. Um caso em que podemos dizer que se une, clara mente, Arte e Ciência e, por exemplo, a ponte sobre o Douro, desenhada pelo Eng. Edgar Cardoso. Por um lado, é bela e, por outro, pode ser descrita matematicamente. E se é certo que estragou a paisagem do Douro, estabeleceu ao mesmo tempo, ligações importantes.
+		Curiosamente, o termo ponte é usado não só para significar a união das margens de um rio mas também a união da Física e da Matemática ou da Arte e Ciência. Porem, O fundamental quanto a esta questão e compreender	que a sua complexidade nos ultrapassa e que o mais que se pode fazer é dançar à volta destas ideias e tentar criar as nossas próprias teorias e explicações."
+		<p></p>
+		 Professor Agostinho da Silva para a revista Arte e Ciencia, Ass. dos Estudantes da Faculdade de Ciências. 
+		<br/>
+		<p></p>	
+		
+		<li>from A.</li>"Arte e ciência reflectem-se uma na outra, numa simbiótica operação de simetria. Um físico célebre - J.R.Oppenheimer - disse um dia que «a física procura explicar, numa linguagem simples, algo que ninguém conhece; a poesia procura dizer coisas que toda a gente conhece, mas fá-lo numa linguagem que ninguém entende». A diferença está na língua; a comunicação entre cientistas e artistas exige apenas um dicionário. A separação maniqueísta de arte e ciência é um fenómeno recente, com pouco mais de cinquenta anos, certamente menos de cem anos. Aliás a palavra "cientista" para designar o cultor das ciências duras foi criada apenas no século passado. Em Inglaterra apareceu em 1840, e mesmo assim os grandes cientistas da época vitoriana ficariam ofendidos se os separassem dos artistas. Maxwell (1831-1879) foi poeta de mérito e grande prosador, com direito a figurar em antologias; o químico Borodine	(1833-1887) distinguiu-se como compositor.	Mais perto de nós, Einstein tinha o seu violino e Bohr filosofava entre os maiores.<br/>
+		A especialização científica e o correspondente divórcio do mundo das artes é o produto do esforço colectivo, e consequente divisão de trabalho, impostas pelo complexo projecto que o levou à construção urgente da bomba atómica durante a II Grande Guerra. A moda do "nuclear" gerou um elitismo que subverteu por completo a hierarquia das disciplinas. O cientista orgulhava-se então de "saber cada vez mais e mais sobre menos e menos". Esses tempos passaram, e hoje o progresso científico corre nas interfaces de várias ciências - daí a criação de ramos híbridos como a biotecnologia ou a optoelectrónica. Por outro lado, a importância e a complexidade dos problemas que afectam a humanidade - da fome à poluição, não esquecendo o buraco de ozono - exige o seu ataque em várias frentes, duma maneira imaginativa que só a interdisciplinariedade pode dar. A isto chama-se cultura.<br/>
+		O que é curioso é que foi precisamente a física moderna, nomeadamente através dos dois grandes monumentos que são a teoria da relatividade e a mecânica quântica, que retiraram à ciência alguns dos seus atributos fundamentais que a distinguiram da arte. Unicidade e objectividade desapareceram - basta lembrar o Princípio da Incerteza de Heisenberg e o dualismo onda-corpúsculo (que não é mais do que a velha questão do espírito versus matéria).<br/>
+		Volta-se assim ao princípio, aos tempos em que um poeta - Shelley (1792-1892) - afirmava que "a poesia compreende toda a ciência" e escolhia uma palavra bela, poiesis, para designar o rasgo de imaginação que está na base da criação científica ou artística. E se o acto de criação é uno, certamente que a ciência influencia a arte e é por sua vez determinada por esta. Tudo depende da inclinação de cada um (cientista ou artista), tal como a luz se com porta como onda ou corpusculo consoante o tipo de interacção, que é como quem diz, de observação.<br/>
+		O diálogo entre a ciência e a arte não é de hoje - é de sempre. Processa-se, em geral, através dum intermediário, quer seja a religião (nos tempos em que o homem acreditava em deuses) ou o amor e curiosidade pela natureza. Hoje, que nem uma nem outra parecem contar muito (os políticos falam de Deus, Pátria e Família, mas ninguém os ouve; os povos preocupam-se com o ambiente mas não são ouvidos), a comunicação (entre arte e ciência) parece fazer- se através duma certa tendência para a contextualização ou para a procura de sinais. Enquanto as ciências duras (física, química, etc.) se tornam mais cultas, as moles matematizam-se ou enchem-se de palavrões.<br/>
+		O saber moderno é hermético, e o homem e mulher comuns tanto se queixam da abstrusidade da matemática como da impenetrabilidade da arte, mesmo a mais simples. No entanto arte e ciência sempre exigiram preparação. O centauro com cabeça de homem e corpo de cavalo é tão real como os três olhos da mulher de Picasso. Decifrar as esculturas dum pórtico de catedral medieval é hoje tão complicado para um leigo como demonstrar o teorema de Pitágoras. Não o era na época em que este tipo de saber era partilhado pelo colectivo.<br/>
+		Cada um faz ciência ou arte à sua maneira, e são os meios usados para exprimir as ideias que dão o nome à disciplina (cientifica ou artística). Um químico, no século XIX, estuda o estado fluido e a continuidade entre o gás e o líquido, enquanto um poeta contempla, embevecido a linha do horizonte; entretanto um pintor capta impressões fugitivas numa massa vaporosa e indistinta de cor e um músico miniaturiza a escala para obter as gradações mais transitórias. Nasceu o impressionismo.	Anos depois, quem sabe se por reacção, um físico estuda a estrutura intima dos cristais e descobre que é quase tudo espaço vazio, enquanto outro põe em pratos limpos a equivalência dos referenciais, isto é, dos pontos de vista; a linha (recta, se possível, que a rectitude é moral) readquire a nobreza e nasce o cubismo.<br/>
+		Em tempos que já lá vão, quando era possível visualizar a ciência, falava-se do significado físico dos fenómenos; hoje, quando muito, existe o significado que a matemática lhes dá. Resta a estética que, com a ética, são as  ̇nicas ditaduras aceitáveis. A verdade científica é uma questão de beleza. Não era Einstein que procurava na estética os seus critérios de verdade? Sea equação não era bela também não podia ser certa. E se não choca o velho ditado do "quem feio ama ...'', é porque a ciência, tal como a beleza, são subjectivas. Todos reconhecem, porém, que uma lei de conservação (de massa, de energia, de momento, etc) é agradável, tal como o é também as contas baterem certas ao fim do mês, etc.<br/>
+		A expansão do conhecimento dá-se por associações de ideias e estas conduzem à universalidade. O que é bom para a humanidade tem de ser bom para mim."
+		<br/>
+		<p></p>
+		As voltas da Ciência e da Arte, Jorge Calado para a revista Arte e Ciencia, Ass. dos Estudantes da Faculdade de Ciências. 
+		<br/>
+		<p></p>
+		
+		
+		<li>from S.</li>"What were some of the original ideas and goals in the formation of E.A.T.?
+<br/>
+		The goal from the beginning was to provide new materials for artists in the form of technology. A shift happened because, from my own experience, I had worked in 1960 with Tinguely to do the machine that destroyed itself in the Garden of MoMA. At that time I employed - or coerced - a lot of my co-workers at Bell Labs to work on the project.
+<br/>
+		When I saw that, I realized that the engineers could help the artists; the engineers themselves could be the materials for the artists. After the event, I got besieged by a lot of artists in New York like Andy Warhol, Robert Rauschenberg, Jasper Johns - all of them. Robert Whitman and Rauschenberg put the notion together that it should be a collaboration between artists and engineers, where they were equally represented. The idea was that a one to one collaboration could produce something that neither of the two could individually foresee. And that was the basis for the whole thing, and the system developed from there.
+<br/>
+		We had to do a lot of "propaganda" because in the 60's the difference between art and engineering was an enormous canyon. We understood that we had to recruit engineers - that was the barrier we had to go through.
+<br/>
+		This whole thing spread within a year or two all over the United States. So, when an artist phoned in and said: "I have this problem." we had one person on the staff that would find an engineer to help them out - and that was it.
+<br/>
+		The other thing that we did from the very beginning was organize large projects. The first one of course was NINE EVENINGS in '66, out of which E.A.T. actually came. The main breakthrough in NINE EVENINGS was scale. Everybody in New York was there. Practically every artist in New York helped make it a go, and about 10,000 spectators saw it. Since then we have initiated forty to fifty projects, the last one happening last summer in Northern Greenland.
+
+		So those are the two operations of E.A.T.: matching and making projects.
+<p>
+		I have a quote here... "Kluver saw many parallels between contemporary art and science, both of which were concerned basically with the investigation of life...a vision of American technological genius humanized and made wiser by the imaginative perception of artists..." Does that accurately describe your goal?
+<br/>
+		Well, it could be said better than that... The way I see it is that artists provide non-artists - engineers or whomever - a certain number of things which non-artists do not possess. The engineer expands his vision and gets involved with problems which are not the kind of rational problems that come up in his daily routine. And the engineer becomes committed because it becomes a fascinating technological problem that nobody else would have raised.
+<br/>
+		If the engineer gets involved with the kinds of questions that an artist would raise, then the activities of the engineer goes closer towards that of humanity... Now, this is all sort of philosophical - in practice it has to do with doing it.
+</p><p>
+		So, is technology a transparent medium that artists should be able to use... there's not really a moral side to technology?
+<br/>
+		Well, no. The artists have shaped technology. They have helped make technology more human. They automatically will because they're artists. That's by definition. If they do something it automatically comes out human. There's no way you can come out and say that if art is the driving force in a technological situation that it will come out with destructive ideas. That's not possible. But what happens, of course, is that the artist widens the vision of the engineer.
+</p><p>
+		And so artists can provide a conscience or humanizing element to the technology?
+<br/>
+		Yes, that's what I mean... but that's saying it too much. There might be other consciousness that come from other sources than art. I think there is a huge consciousness inside technology that hasn't been tapped.
+</p><p>
+		It seemed like the whole art and technology movement of the late 60's seemed to lose some of its initial momentum in the 70's - at least that's the impression that the postmodern texts give...
+<br/>
+		The texts are horrible - one of the amusing things is that they tell us we've done things we never did. But - the question of the momentum already in the first newsletter we said that if we were successful we would disappear. We would disappear because there is really no function like E.A.T. that needs to exist in society if we were successful. It would be perfectly natural for an artist to be able to contact an engineer him or herself. If it was natural, why should we be involved? And that's what we have stated from the beginning - and of course that is what has happened. The universities, the computer graphic societies, artist societies, and organizations like your own - it was inevitable.
+<br/>
+		People in New York wanted us to move in, to set up labs with all of the equipment, but we constantly refused. It was not a matter of institutionalizing. I'm very pleased that the initial attitude was like that because it meant that we could still exist.
+<br/>
+		To institutionalize anything in this area is dangerous and self-destructive. It's just a matter of solving problems, and you can do that forever.
+</p><p>
+		It makes sense that people critical of E.A.T. have misinterpreted it as being very institutionalized - when in reality it is quite the opposite.
+<br/>
+		The main thing is that we never anticipated in the growth in the late sixties - and you had to take care of it - so you needed a staff. Everybody then immediately thought "Oh my God, they're making a lot of money". Actually, you can't believe all of the debts that we had. I saved E.A.T. by selling every artwork I had, not by making money. I sold things that would have made me a billionaire if I would have held on to them.
+</p><p>
+		How do you "match" artsists through E.A.T.?
+<br/>
+		Almost anybody who calls us, we help. I never ask to see people's paintings or anything that they do. Usually the conversation starts off with "I have a problem..." After that, I always ask the same three questions when somebody calls me about something:How big is it, How many people are going to see it, and Is it inside or outside? If there is no answer to any one of these three questions - like "It could be as big as you want", or "It could be inside or outside" - you know that he or she has no idea of what they're doing. They haven't taken into account the reality of the project. If you can get down to the reality of the problem, you can usually solve it in a few minutes. It's amazing how simple it is to find the answer.
+<br/>
+		While matching, I always have the artist call the engineer directly. There is a lot of intimidation there in the first place. E.A.T.'s most important role is to eliminate the initial intimidation. Once the engineer and the artist get to talk together - if there is anything there - it will happen. If there isn't, it will die in ten seconds. It's happened that way for over thirty years.
+</p><p>
+		So there's no mission of E.A.T. overtaking the art scene...
+<br/>
+		Overtake? It's already been overtaken. Namely that people can talk about it without being terrified. This has been what I've said since the early sixties. Nobody then could believe that an artist could talk to an engineer...
+<br/>
+		For example, do you know the group called S.R.L.?
+</p><p>
+		Yeah, Survival Research Laboratories with Mark Pauline...
+<br/>
+		We talk now and then. I see them as being brilliant - just totally brilliant. He is of the next generation and he understands how the business of "getting things done". And that's what it's all about - GETTING IT DONE - that's the key to all of it. Artists will often be intimidated by "Oh, it's a problem" - they think a power plug is an enemy.
+</p><p>
+		So, what if somebody were to call you the "Godfather of Technology and Art"?
+<br/>
+		Well, I guess in a way it's probably true. However, Tatlin is to me the real Godfather - the constructivist artist. That group embraced technology, and embraced it in terms of art.
+<br/>
+		Many people wanted E.A.T. to be about art and science, but I insisted it be art and technology. Art and science have really nothing to do with each other. Science is science and art is art. Technology is the material and the physicality.
+<br/>
+		However, as far as that goes - other people would have to agree with you, but I think that's probably true - that I would be the Godfather of Art and Technology."
+		<br/>
+		<p></p>
+		An interview with Billy Kluver, Garnet Hertz, April 19th, 1995
+		<br/>
+		<p></p>
+
+		<li>from A.</li>"“It is a challenge to work with a medium before anyone defines it as a medium.”
+		/Stephen Wilson, Information Arts. Intersections of Art, Science, and Technology. MIT Press.Leonardo Books, 2002.
+
+		This article doesn’t deal with the theoretical definitions of bioart but focuses on those events from human history which (un)consciously pointed to the emergence of art which handles living material, where living material, such as cells, tissue and genes, are the medium. That is, of course, exactly what defines bioart. There are many paths through the history of this problematic. The word most frequently used in bioart is synthesis. Art has always involved synthesis. Synthesis unites disparate elements, putting them into new relationships to create new metaphors, sensory experiences or aesthetic genres. To gain a better understanding of projects dealing with living cells we need to look back and trace the history of synthetic biology.
+
+		To the beginnings of synthetic biology
+		We can find the first evidence of synthetic biology in 1910, when French natural scientist Stephane Leduc published his article La Biologie Synthétique. He compared the growth of crystal formations with the creation of organic life forms. In his Chemical Gardens (jardins chimiques) he applied the osmotic and diffusive process, enabling him to produce so-called “organic form”. Although Leduc´s work was criticized as merely an imitation of life, according to Luis Campos (Towards a History of Synthetic Biology. Abridged from Luis Campos: “That Was the Synthetic Biology That Was”. In: Markus Schmidt et al., eds., Synthetic Biology: The Technoscience and Its Societal Consequences. Springer Academic Publishing, 2009), it was the first serious attempt to use synthesis for better understanding of organic growth. Leduc´s work was an inspiration for contemporary Austrian artist Roman Kirschner. He used a similar principle in his work Roots (2005–6, visualization at : http://wwwyoutubecomwatch?v=j26rh7TpNH0.). In this installation, dark crystals grow towards one another in a glass tube, trying to connect. As constellations appear, they generate sound. At the end the crystals disappear like chimeras into a dark cloud. 
+		Another historical example is Dutch botanist Hugo de Vries. He is the pioneer of mutation theory and is considered one of the first genetic scientists. De Vries modified Darwin’s theory of Pangenesis from 1868. He showed that characteristic properties of organisms are heritable not only with sexual, but even with somatic cells, which he called pangenes. Twenty years later another scientist, Wilhelm Johannsen, shortened this word to genes, the word we use today. As we follow the track beaten by Luis Campos, young assistant professor of history at Drew University in New Jersey, we come to another scientist. Irish physicist John Butler Burke approached things differently than Leduc. Burke asked himself: Could life be created from non-life? In 1905 he put radium into a petri dish with bouillon and surprisingly enough, semi-living forms began to emerge. These forms were far from real life, but were also unlike the initial inorganic material. They were semi-radium and semi-microbes, and Burke called them Radiobes. To paraphrase Campos, the experiment sparked both popular and scientific debate, but was eventually forgotten. Not before, however, it had laid the groundwork for a new mode of enquiry exploring the historical origin of life…"
+		<p></p>
+		Surreal story of the emergence of "in vivo" art, article extract from Martina Ivičič in TIK project publication, 2012. 
+		<br/>
+		<p></p>		
+		
+	</article>
+	</section>
+
+
+</div><!-- Closes class coll -->
+<!--////////////////////////////////////////////////////////////////////////////////
+  end of second collune 
+////////////////////////////////////////////////////////////////////////////////-->
+
+<!--////////////////////////////////////////////////////////////////////////////////
+  third collune 
+////////////////////////////////////////////////////////////////////////////////-->
+<div class=col ><!-- other collune container -->
+
+	<!-- div /////////////////////////////////////////////////////-->
+	<section class=mod name=WAM>
+		<article>
+		<h2>Criatura A_01.1: Diálogo Inicial</h2><hr/>
+		<p>
+		</p>
+			<li>from A.</li>“The wind clock from the land of Cockaigne,” Fuxier resumed, amplifying his statement with the following commentary:<br/>
+			“In the blissful land in question, the perfectly regular wind took it upon itself to tell the time for the inhabitants. At high noon it blew violently from the west and gradually died down until midnight, a poetic moment when everything was utterly calm. Soon a light breeze from the east gradually rose and kept growing until the following noon, which marked its apogee. An abrupt shift then occurred, and once more the tempest rushed in from the west to resume its evolution of the day before. Remarkably adapted to these unvarying fluctuations, the clock here submitted in effigy for our appreciation fulfilled its functions far better than the ordinary sundial, its solely diurnal task further hampered no doubt by passing clouds.”
+			<p></p>
+			 Raymond Roussel, Impressions of Africa  
+			<br/>
+			<p></p>
+				<li>from S.</li>“Since 1985, a new wave has emerged in the study of Artificial Intelligence (AI). At the same time at which the popular, general belief is that AI has been a "failure," many insiders believe that something exciting is happening, that new life is being brought to the field. The new wave has been termed autonomous agent research or behavior-based Ai as opposed	to mainstream "knowledge-based AI," or also "bottom-up AI" versus "top-down AI." Finally, the term animal approach (shorthand for "artificial animal"), which was coined by Wilson, is also frequently used.
+			<br/>	Several people have given definitions and written overviews of research in autonomous agents, among them Brooks, Wilson, and Meyer. There are several reasons for giving it yet another try. First of all, many researchers are still skeptical about the approach. Some claim that it isn't very different from what they have been doing all along. Others are still not convinced that the approach is founded and scientific.
+			<br/>	A second reason is that this account is different from the papers listed earlier. Brooks, being one of the main originators of this new approach, presents a picture that is restricted to robotic forms of intelligence. This paper presents a more general perspective. It argues that the autonomous agent approach is appropriate for the class of problems that require a system to autonomously fulfill several goals in a dynamic, unpredictable environment.	This includes applications such as virtual actors in interactive training and entertainment systems, interface agents, process scheduling, and so on. Wilson's account focuses on a scientific methodology for research in autonomous agents, while Meyer aims to give an overview of the research performed so far. Finally, a third reason is that, since the approach has been around for a number of years now, it is time to perform a critical evaluation. This paper discusses the basic problems of research in adaptive autonomous agents. It also presents an overview and evaluation of the state of the art of the field. In particular it identifies some of the more general and more specific open problems that still remain to be solved. Overview papers are necessarily biased. This paper is biased toward the research in adaptive autonomous agents that has taken place at the AI Laboratory and Media Laboratory of the Massachusetts Institute of Technology.<br/><br/>
+			What is an Adaptive Autonomous Agent?<br/>
+			An agent is a system that tries to fulfill a set of goals in a complex dynamic environment. An agent is situated in the environment: it can sense the environment through its seasons and act upon the environment using its actuators. An agent's goals can take many different forms: they can be "end goals" or particular states the agent tries to achieve, they can be a selective reinforcement	or reward that the agent attempts to maximize, they can	be internal needs or motivations that the agent has to keep within certain viability zones, an so on. An agent is called autonomous if it operates completely autonomously, that is,if it decides itself how to relate its sensor data to motor commands in such a way that its goals are attended to successfully. An agent is said to be adaptive if it is able to improve over time, that is, if the agent becomes better at achieving its goals with experience. Notice that there is a continuum of ways in which an agent can be adaptive, from being able to adapt flexibly to short-term, smaller changes in the environment, to dealing with more significant and longterm (lasting) changes in the environment, that is, being able to change and improve behavior over time.<br/>
+			Depending on what type of environment it inhabits, an agent can take many different forms. Agents inhabiting the physical world are typically robots. An example of such an agent would be an autonomous vacuuming robot. Agents inhabiting the "cyberspace" environment consisting of computers and networks are often called "software agents" or "interface agents" or sometimes also "knobots." An example of such an agent would be a system that navigates computer networks to find data of a particular nature. Finally, agents can inhabit physical environments. An example of such an agent could be a "synthetic actor" in a computer-animated world. Combinations of these three types of agents may exist. For example, in the ALIVE interactive environment, the animated (virtual) agents employ real sensors (i.e., a camera), to decide how to react to a person's movements and gestures.”
+				<p></p>
+				Modeling Adaptive Autonomous Agents, Pattie Maes in Artificial Life, 1997, MIT Press   
+				<br/>
+				<p></p>			
+			
+			</article>
+			</section>
+			
+<!-- div /////////////////////////////////////////////////////-->
+<div class=clear></div>
+	
+	<section class=mod name=WAMsinopse>
+		<article>
+		<h2>Wind Agents Mapping: Sinopse</h2><hr/><p>
+				Num trabalho desenvolvido, em paralelo com os objectivos do mestrado, para ser parte integrante de uma exposição a ocorrer em Bruxelas intitulada Time Inventors' Kabinet, cuja temática gira em torno de uma infra estrutura on-line que propaga pela rede impulsos gerados por sensores de vento, impulsos esses que são usados pelos artistas, seguindo a ideia de Roussel, como base temporal, como que segundos de vento assíncronos e imprevisíveis. <br/>
+					Tendo em mente a utilização de modelos computacionais que simulam agentes autónomos e sistemas multi-agente como criadores de objectos artísticos, devido ao seu comportamento emergente, estes impulsos serão usados como modeladores do mundo virtual habitado por esses agentes. Noutras apresentações onde a infra-estrutura não esteja implementada o mesmo conceito é aplicado através do recurso a sensores que permitam ao espectador interagir com o sistema, perturbando-o, criando assim uma ponte entre o mundo real e este universo digital.
+				<br/>
+		</article>
+	</section>
+
+<!-- div /////////////////////////////////////////////////////-->
+<!-- Setting fixed width -->
+<div class=clear></div>
+
+<section class=mod name=WAMImages>
+<article>
+			<h2>Wind Agents Mapping: imagens </h2><hr/>
+		<div id="gallery1" class="gallery" style="position: relative; float: left; width: 400px;  margin-left: 5px">
+		<div class="controller-wrapper">
+		<div style="padding: 10px 0; height: 40px;">
+		<span style="float: left;">
+			<strong id="gallery1_title">Title</strong><br/>
+				<span id="gallery1_caption">Caption</span>
+			</span>
+		<span style="float: right;">
+		  <a href="#" id="gallery1_prev" class="isg_button">Prev</a> |
+		  <a href="#" id="gallery1_next" class="isg_button">Next</a>
+		</span>
+		</div>
+		</div>
+		</div>
+</article>
+</section>
+<!-- div /////////////////////////////////////////////////////-->
+<div class=clear></div>
+
+	<section class=mod name=WAMDescricao>
+		<article>
+<h2>Wind Agents Mapping: Descrição</h2><hr/><p>
+	Wind Agent Mapping é um sistema dinâmico constituído por uma paisagem virtual habitada por seres, agentes, que interagem uns com os outros e com o ambiente que os circunda, com base em regras muito simples. Esta interacção e o estado do meio contribuem para um comportamento emergente da globalidade do sistema. <br/>
+	Irá existir um ponto de contacto entre o sistema virtual, habitado pelos agentes, e o mundo real, o espaço de exposição, esse canal servirá para que o espectador possa interagir com estes seres interferindo no seu mundo.
+	Por sua vez, o sistema molda-se a esta interferência reorganizando-se, criando assim um estrutura altamente dinâmica em constante mudança. <br/>
+	Podemos pensar nesta instalação como metáfora para o modo como um ecossistema é dependente da intrínseca relação de todos os seus coabitantes, e como os actos de uma parte desse sistema se reflectem no todo.
+	<p>
+	A intervenção da audiência na obra, através de um sensor que mede a velocidade do ar permitindo ao espectador "soprar" para o ambiente virtual, provoca a erosão do plano tridimensional. Este plano povoado por seres que operam todos pelas mesmas regras locais baseadas em comportamentos sociais, estes seres procuram-se uns aos outros, como se uma maior vizinhança assegura-se uma maior probabilidade de sobrevivência. Estas constantes interacções, entre o exterior e o meio virtual, entre este e a sua população, entre cada ser e o seu meio circundante irão influenciar o comportamento global do sistema criando padrões.<br/>
+	Para a criação da paisagem sonora da instalação será criado um sistema baseado em redes neuronais. Os padrões criados pelos sistema serão usados para manipular a topologia das ligações de uma destas redes. A posição e o movimento dos agentes individuais irá determinar o peso da ligação localizada em determinada posição, o que irá deslocar o seu valor inicial para um novo. Na maior parte dos casos as redes neuronais são usadas para resolver problemas específicos e para tal existe e para tal o esforço é direccionado na optimização das relações entre os pesos de cada ligação, contudo nos últimos anos teme sido desenvolvidos alguns modelos baseados na perturbação destas relações, criando estruturas mais flexíveis e com maior capacidade para se adaptarem. O modelo de rede usado nesta instalação ,vagamente inspirado pelo trabalho de Stephen Thaler, do tipo SRN (Simple Recurrent Neural Network), recorrente no sentido em que parte do valor de saída é novamente direccionado para uma entrada. A rede é "treinada", durante a fase de aprendizagem, com algumas relações entre o timbre e a duração das notas numa melodia criando assim um conjunto de valores relacionais predefinidos, e durante a fase de actuação as relações previamente criadas são perturbadas, pelos valores fornecidos pelo estado do sistema visual, alterando assim a dinâmica da paisagem sonora.  <br/> 
+	Sugiro a leitura de um texto introdutório nesta matéria em:<br/>  
+		<ul class=links>
+			"www.doc.ic.ac.uk/"	
+			<a href="http://www.doc.ic.ac.uk/~nd/surprise_96/journal/vol4/cs11/report.html">[link]</a>
+		</ul>
+</p>
+<p>
+	A obra será apresentada como instalação audiovisual, onde o som e a imagem serão gerados a partir do comportamento deste sistema de vida sintética.<br/>
+
+	Outro dos objectivos finais desta peça é a fabricação de objectos tridimensionais que retratem um dado momento do sistema, a impressão digital do espaço esculpido pelos agentes, de modo a completar um circulo em que se partiu de sistemas e comportamentos naturais como inspiração para um simulacro de vida digital, mantendo-o vivo numa de caixa de petri virtual, para no final materializar o seu estado na criação de objectos que habitem o mundo real.</p>
+	
+</article>
+</section>
+
+
+
+</div><!-- Closes class coll -->
+<!--////////////////////////////////////////////////////////////////////////////////
+  end of third collune 
+////////////////////////////////////////////////////////////////////////////////-->
+
+<!--////////////////////////////////////////////////////////////////////////////////
+  fourth collune 
+////////////////////////////////////////////////////////////////////////////////-->
+<div class=col><!-- other collune container -->
+
+<!-- div /////////////////////////////////////////////////////-->
+	<section class=mod name=VA>
+		<article>
+		<h2>Criaturas A_02.*: Diálogo Inicial</h2><hr/>
+		<p>
+		</p>
+			<li>from A.</li>
+			<p></p>
+			 "In such a country, you will perceive at once that it is impossible that there should be anything of what you call a "solid" kind; but I dare say you will suppose that we could at least distinguish by sight the Triangles, Squares, and other figures, moving about as I have described them. On the contrary, we could see nothing of the kind, not at least so as to distinguish one figure from another. Nothing was visible, nor could be visible, to us, except Straight Lines; and the necessity of this I will speedily demonstrate."<br/><br/>		
+			"You, who are blessed with shade as well as light, you, who are gifted with two eyes, endowed with a knowledge of perspective, and charmed with the enjoyment of various colours, you, who can actually see an angle, and contemplate the complete circumference of a Circle in the happy region of the Three Dimensions — how shall I make it clear to you the extreme difficulty which we in Flatland experience in recognizing one another's configuration?<br/>
+			Recall what I told you above. All beings in Flatland, animate and inanimate, no matter what their form, present to our view the same, or nearly the same, appearance, viz. that of a straight Line. How then can one be distinguished from another, where all appear the same?"
+			<br/>
+			<p></p>
+			Edwin Abbitt, Flatland
+			<br/>
+			<p></p>
+			<li>from S.</li>
+			<p></p>
+			"There has been considerable interest in computer viruses during the last several years. One aspect of this interest has been to ask if computer viruses are a form of artificial life, and what that might imply.[…]	<br/>
+			Computers are designed to execute instructions one after another. Those instructions usually do something useful, calculate values, maintain databases, and communicate with users and with other systems. Sometimes, however, the instructions executed can be damaging and malicious in nature. When that happens by accident, we call the code involved a software bug, perhaps the most common cause of unexpected program behavior. If the source of the instructions was an individual who intended that the abnormal behavior occur, then we consider this malicious coding; authorities have sometimes referred to this code as malwware and vandalware. These names relate to the usual effect of such software. 	<br/>
+			There are many distinct forms of this software that are characterized by the way they behave, how they are triggered, and how they spread. In recent years, occurrences of malware have been described almost uniformly by the media as computer viruses.[…]	<br/>
+			The term computer virus is derived from and is in some sense analogous to a biological virus. The word virus itself is Latin for poison. Simplistically, biological viral infections are spread by the virus (a small shell containing genetic material) injecting its contents into a far larger organism's cell. The cell then is infected and converted into a biological factory producing replicants of the virus. Similarly, a computer virus is a segment of machine code (typically 200 to 4,000 bytes) that will copy itself (or a modified version of itself) into one or more larger "host" programs when it is activated. When these infected programs are run, the viral code is executed, and the virus spreads further. Sometimes, what constitutes "programs" is more than simply applications: Boot code, device drivers, and command interpreters also can be infected. […]<br/>
+			<br/>
+			"He ( John Inglis) defines a virus as a piece of code with two characteristics:
+			1. At least a partially automated capability to reproduce. 
+			2. A method of transfer which is dependent on its ability to attach itself to other computer entities (programs, disk sectors, data files, etc.) that move between these systems."" 
+			<br/>
+			<p></p>
+			Computer Virus as Artificial life, Eugene Spafford in Artificial Life, 1997, MIT Press   
+			<br/>
+			<p></p>			
+			
+		</article>
+	</section>
+			
+<!-- div /////////////////////////////////////////////////////-->
+<!-- Setting fixed width -->
+<div class=clear></div>
+
+<section class=mod name=VAImages>
+<article>
+		<h2>Viral Agents: imagens </h2><hr/>
+	<div id="gallery2" class="gallery" style="position: relative; float: left; width: 400px;  margin-left: 5px">
+	<div class="controller-wrapper">
+	<div style="padding: 10px 0; height: 40px;">
+	<span style="float: left;">
+		<strong id="gallery2_title">Title</strong><br/>
+			<span id="gallery2_caption">Caption</span>
+	</span>
+	<span style="float: right;">
+	  <a href="#" id="gallery2_prev" class="isg_button">Prev</a> |
+	  <a href="#" id="gallery2_next" class="isg_button">Next</a>
+	</span>
+	</div>
+	</div>
+	</div>
+</article>
+</section>
+
+<!-- div /////////////////////////////////////////////////////-->
+<div class=clear></div>
+
+
+	<section class=mod name=VADescricao>
+		<article>
+<h2>Viral Agent: Descrição</h2><hr/><p>
+	<a href='#VADescricao'>A_02.1 </a><!--tag para linkar--> <p>
+		A02.1 será o protótipo inicial desta serie, que se debruça no estudo do desenvolvimento de estruturas espaciais, na relação dos agentes, seres digitais, com o seu meio e no desenvolvimento sustentável como espécie. <p></p>
+		Com base em modelos simples pretende-se explorar a emergência de padrões, com base no estudo de modelos de difusão-reacção introduzidos por Turing num texto de 1952, onde se investigam quebras de relações de simetria e homogeneidade, e no caso específico da sua aplicação discreta dos autómatos celulares, utilização desta variante aos modelos contínuos tem particular interesse por permitir o uso de apenas dois estados, que neste caso particular indicará se o agente existe ou não.
+		Outra das ideias a desenvolver neste modelo será a minoração do código necessário para reproduzir algum tipo de comportamento emergente ou sistema evolutivo capaz de se adaptar a alterações no meio e como uma inaptidão de uma simbiose com o meio poderá resultar na destruição deste e do organismo que o povoa. <p></p>
+		Irão ser usados três operadores boleanos computacionais, operam sobre 1 e 0, como base para este modelo, o Bitwise OR (a = a | b), o Bitwise XOR (a = a ^ b) e o operador ternário (a ? b if(a == true) : c if (a == false)).
+<p></p>
+A. Turing, The chemical basis of morphogenesis  
+<ul class=links>
+	"www.dna.caltech.edu"	
+	<a href="http://www.dna.caltech.edu/courses/cs191/paperscs191/turing.pdf">[link]</a>
+</ul>
+	
+</article>
+</section>
+<!-- div /////////////////////////////////////////////////////-->
+<div class=clear></div>
+
+</div><!-- Closes class coll -->
+<!--////////////////////////////////////////////////////////////////////////////////
+  end of fourth collune 
+////////////////////////////////////////////////////////////////////////////////-->
+
+<!--////////////////////////////////////////////////////////////////////////////////
+  fifth collune 
+////////////////////////////////////////////////////////////////////////////////-->
+<div class=col><!-- other collune container -->
+
+<!-- div /////////////////////////////////////////////////////-->
+
+
+	<section class=mod name=MA>
+		<article>
+		<h2>Criatura A_03.1: Diálogo Inicial</h2><hr/>
+		<p>
+		</p>
+			<li>from A.</li>
+			<p></p>
+			 "...there is perhaps a natural tendency to regard ...the mycelium as a boring, uniformly absorbent mass of hyphal threads which, whilst important in energy capture, only really become interesting when parts of it aggregate and differentiate into a fruit body...... I have increasingly come to regard the mycelium as a heterogenous army of hyphal troops, variously equipped for different roles and in varying degrees of communication with one another. Without a commander, other than the dictates of their environmental circumstances, these troops organise themselves into a beautifully open-ended or indeterminate dynamic structure that can continually respond to changing demands. Recall that during its potentially indefinite life, a mycelial army may migrate between energy depots; absorb easily assimilable resources such as sugars; digest refractory resources such as lignocellulose; mate, compete and do battle with neighbours; adjust to changing microclimatic conditions; and reproduce."
+			<br/>
+			<p></p>
+			Alan Rayner, Conflicting flows: the dynamics of mycelial territoriality
+			<br/>
+			<p></p>
+			<li>from S.</li>
+			<p></p>
+			"A mathematical model for hyphal growth and branching is described which relates cyto- logical events within hyphae to mycelial growth kinetics. Essentially the model quantifies qualitative theories of hyphal growth in which it is proposed that vesicles containing wall precursors and/or enzymes required for wall synthesis are generated at a constant rate throughout a mycelium and travel to the tips of hyphae where they fuse with the plasma membrane, liberating their contents into the wall and increasing the surface area of the hypha to give elongation. The hypothesis that there% a duplication cycle in hyphae which is equivalent to the cell cycle observed in unicellular micro-organisms is also included in the model. Predictions from the model are compared with experimentally observed growth kinetics of mycelia of Geotrichum candidurn and Aspergillus nidulans.
+			The finite difference model which was constructed is capable of predicting changes in hyphd length and in the number and positions of branches and septa on the basis of changes in vesicle and nuclear concentration. Predictions were obtained using the model which were in good agreement with experimentally observed data."
+			<br/>
+			<p></p>
+			Prosser and Trinci, A Model for Hyphal Growth and Branching  
+			<ul class=links>
+				"mic.sgmjournals.org"	
+				<a href="http://mic.sgmjournals.org/content/111/1/153.full.pdf">[link]</a>
+			</ul> 
+			<br/>
+			<p></p>			
+			
+		</article>
+	</section>
+
+
+			
+<!-- div /////////////////////////////////////////////////////-->
+<!-- Setting fixed width -->
+<div class=clear></div>
+
+<section class=mod name=MAImages>
+
+	<article>
+	<h2>Mycelium Agent: imagens </h2><hr/>
+<div id="gallery3" class="gallery" style="position: relative; float: left; width: 400px;  margin-left: 5px">
+<div class="controller-wrapper">
+<div style="padding: 10px 0; height: 40px;">
+<span style="float: left;">
+	<strong id="gallery3_title">Title</strong><br/>
+		<span id="gallery3_caption">Caption</span>
+</span>
+<span style="float: right;">
+  <a href="#" id="gallery3_prev" class="isg_button">Prev</a> |
+  <a href="#" id="gallery3_next" class="isg_button">Next</a>
+</span>
+</div>
+</div>
+</div>
+</article>
+
+</section>
+<!-- div /////////////////////////////////////////////////////-->
+<div class=clear></div>
+
+	<section class=mod name=MA_011Descricao>
+		<article>
+<h2>Mycelium Agent: Descrição</h2><hr/><p>
+	Mycelium Agent é um objecto audiovisual que parte de um modelo computacional baseado no desenvolvimento das hifas, filamentos que formam o micélio dos fungos. <p>
+
+	Diferindo das plantas e animais todas as células num fungo permanecem totipotentes, capacidade de se dividir e produzir todas as células diferenciadas do organismo, o que torna o seu desenvolvimento muito menos previsível. Todos os compartimentos, células, de uma hifa podem iniciar uma colónia. Isto também significa que o ciclo de vida de um fungo é imprevisível e flexível. <br/>
+	Podem diferenciar-se numa variedade de estruturas, incluindo esporos que permitem a sua propagação no espaço e no tempo. 
+	Os mecanismos de formação de cada tipo de estrutura são largamente determinados pela percepção do ambiente pelo talo como a existência de água e nutrientes orgânicos, o que torna o desenvolvimento dos fungos num processo dinâmico. As suas estruturas estendem-se tridimensionalmente ao longo do tempo e as fases pelas quais passam esses tecidos são, por vezes, reversíveis. Cada hifa individual pode tomar uma via de desenvolvimento diferente num mesmo tecido. As hifas consistem numa ou mais células rodeadas por uma parede tubular, na maioria dos fungos as hifas estão divididas por paredes internas que permitem a passagem nutrientes e elementos celulares entre elas. O seu crescimento é unidimensional, estendem-se em ramos que, uma vez formados, alongam-se atipicamente. As estruturas tridimensionais dos fungos, consistem em hifas que se agregam entre si por mucilagem, conectadas por tecidos especializados na sua estrutura interior. Os fungos filamentosos não formam tecidos tridimensionais através da actividade mitótica, divisão das suas células. O micélio resulta destas ramificações complexas, que maximizam a exploração de nutrientes no substrato e facilitam a comunicação de nutrientes entre as diferentes zonas do organismo.
+<p>
+	O algoritmo para este modelo baseia-se no crescimento das hifas, cada fluxo de data, cada agente, usa um movimento <i>Browniano</i> controlado, não totalmente aleatório, enquanto procura "alimento" de modo a perpetuar a sua existência. <br/>
+	Um dado número inicial de agentes são gerados e colocados no meio e o único <i>input</i> que têm do seu mundo é dado por uma matriz de 3×3 píxeis em seu redor, ele tem conhecimento da sua posição e pode sondar a posição para onde irá de seguida. Esta informação sobre o exterior é dada pela captura de imagens por uma câmara é feito o mapeamento da posição do agente com os píxeis a serem capturados nas mesmas coordenadas. Com este conhecimento do exterior cada "ser" avalia qual das opções de percurso lhe fornece maior quantidade de energia, as secções mais claras da imagem, e move-se para essa zona. Cada agente possui um quantum energético inicial é subtraído com cada movimento e incrementado em conformidade com a quantidade de luminosidade do sector em que se encontra, quando este valor baixa ate zero este "ser" morre e quando este valor atinge uma dada meta este ramifica-se, criando um novo agente. 
+	A componente sonora deste objecto é criada a partir do estado do quantum energético de cada agente que será mapeado numa escala de cinzas que pode ser visualizada no canto do monitor. Estas oscilações de tom são traduzidas por um componente analógico em frequências.
+	
+</article>
+</section>
+<!-- div /////////////////////////////////////////////////////-->
+<div class=clear></div>
+
+</div><!-- Closes class coll -->
+<!--////////////////////////////////////////////////////////////////////////////////
+  end of fifth collune 
+////////////////////////////////////////////////////////////////////////////////-->
+
+</div><!-- Closes container -->
+<!--
+////////////////////////////////////////////////////////////////////////////////
+  end of container 
+////////////////////////////////////////////////////////////////////////////////
+-->
+
+
+
+<div class=col>
+	<section class=mod name=poster style="position: absolute; left:2550px; top:0px ;z-index:-1;">
+	<img src="img/ExpoPoster.pdf" width=1000>
+	</section>
+</div>	
+
+	
+	
+	
+
+
+
+<footer>
+
+</footer>
+
+
+
+</body>
+
+</html>
+
+<!-- Localized -->
